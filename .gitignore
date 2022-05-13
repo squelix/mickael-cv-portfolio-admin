@@ -121,3 +121,5 @@ build
 !.yarn/versions
 .pnp.*
 yarn.lock
+
+!src/api/icon
