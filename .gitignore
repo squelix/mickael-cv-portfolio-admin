@@ -125,3 +125,4 @@ yarn.lock
 package-lock.json
 
 !src/api/icon
+!src/api/icon/**
