@@ -122,4 +122,6 @@ build
 .pnp.*
 yarn.lock
 
+package-lock.json
+
 !src/api/icon
