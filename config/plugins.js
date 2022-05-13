@@ -1,15 +1,4 @@
 module.exports = ({ env }) => ({
-  graphql: {
-    config: {
-      endpoint: "/graphql",
-      shadowCRUD: true,
-      playgroundAlways: true,
-      depthLimit: 100,
-      apolloServer: {
-          tracing: false,
-        },
-      },
-  },
   slugify: {
     enabled: true,
     config: {
@@ -58,6 +47,18 @@ module.exports = ({ env }) => ({
           field: 'slug',
           references: 'title'
         },
+      },
+    },
+  },
+  graphql: {
+    config: {
+      endpoint: '/graphql',
+      shadowCRUD: true,
+      playgroundAlways: true,
+      depthLimit: 7,
+      amountLimit: 100,
+      apolloServer: {
+        tracing: false,
       },
     },
   },
