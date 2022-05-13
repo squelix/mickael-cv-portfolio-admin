@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-05-13T13:05:04.895Z"
+    "x-generation-date": "2022-05-13T13:18:35.561Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -518,9 +518,6 @@
             "type": "string"
           },
           "title": {
-            "type": "string"
-          },
-          "slug": {
             "type": "string"
           },
           "createdAt": {
@@ -1225,9 +1222,6 @@
                       "type": "string"
                     },
                     "title": {
-                      "type": "string"
-                    },
-                    "slug": {
                       "type": "string"
                     },
                     "createdAt": {
@@ -1960,9 +1954,6 @@
                   "title": {
                     "type": "string"
                   },
-                  "slug": {
-                    "type": "string"
-                  },
                   "createdAt": {
                     "type": "string",
                     "format": "date-time"
@@ -2310,9 +2301,6 @@
             "type": "string"
           },
           "name": {
-            "type": "string"
-          },
-          "slug": {
             "type": "string"
           },
           "icon": {
@@ -3014,9 +3002,6 @@
                   "type": "object",
                   "properties": {
                     "name": {
-                      "type": "string"
-                    },
-                    "slug": {
                       "type": "string"
                     },
                     "icon": {
@@ -3744,9 +3729,6 @@
                 "type": "object",
                 "properties": {
                   "name": {
-                    "type": "string"
-                  },
-                  "slug": {
                     "type": "string"
                   },
                   "icon": {
@@ -4892,9 +4874,6 @@
                         "order": {
                           "type": "integer"
                         },
-                        "slug": {
-                          "type": "string"
-                        },
                         "urlName": {
                           "type": "string"
                         },
@@ -5215,9 +5194,6 @@
               }
             }
           },
-          "slug": {
-            "type": "string"
-          },
           "jobSkills": {
             "type": "object",
             "properties": {
@@ -5233,9 +5209,6 @@
                       "type": "object",
                       "properties": {
                         "name": {
-                          "type": "string"
-                        },
-                        "slug": {
                           "type": "string"
                         },
                         "description": {
@@ -5791,9 +5764,6 @@
                                   "order": {
                                     "type": "integer"
                                   },
-                                  "slug": {
-                                    "type": "string"
-                                  },
                                   "urlName": {
                                     "type": "string"
                                   },
@@ -6114,9 +6084,6 @@
                         }
                       }
                     },
-                    "slug": {
-                      "type": "string"
-                    },
                     "jobSkills": {
                       "type": "object",
                       "properties": {
@@ -6132,9 +6099,6 @@
                                 "type": "object",
                                 "properties": {
                                   "name": {
-                                    "type": "string"
-                                  },
-                                  "slug": {
                                     "type": "string"
                                   },
                                   "description": {
@@ -6716,9 +6680,6 @@
                                 "order": {
                                   "type": "integer"
                                 },
-                                "slug": {
-                                  "type": "string"
-                                },
                                 "urlName": {
                                   "type": "string"
                                 },
@@ -7039,9 +7000,6 @@
                       }
                     }
                   },
-                  "slug": {
-                    "type": "string"
-                  },
                   "jobSkills": {
                     "type": "object",
                     "properties": {
@@ -7057,9 +7015,6 @@
                               "type": "object",
                               "properties": {
                                 "name": {
-                                  "type": "string"
-                                },
-                                "slug": {
                                   "type": "string"
                                 },
                                 "description": {
@@ -7246,9 +7201,6 @@
           },
           "order": {
             "type": "integer"
-          },
-          "slug": {
-            "type": "string"
           },
           "urlName": {
             "type": "string"
@@ -7586,9 +7538,6 @@
                     },
                     "order": {
                       "type": "integer"
-                    },
-                    "slug": {
-                      "type": "string"
                     },
                     "urlName": {
                       "type": "string"
@@ -7953,9 +7902,6 @@
                   "order": {
                     "type": "integer"
                   },
-                  "slug": {
-                    "type": "string"
-                  },
                   "urlName": {
                     "type": "string"
                   },
@@ -8314,9 +8260,6 @@
           "name": {
             "type": "string"
           },
-          "slug": {
-            "type": "string"
-          },
           "description": {
             "type": "string"
           },
@@ -8646,9 +8589,6 @@
                   "type": "object",
                   "properties": {
                     "name": {
-                      "type": "string"
-                    },
-                    "slug": {
                       "type": "string"
                     },
                     "description": {
@@ -9006,9 +8946,6 @@
                 "type": "object",
                 "properties": {
                   "name": {
-                    "type": "string"
-                  },
-                  "slug": {
                     "type": "string"
                   },
                   "description": {
@@ -9369,9 +9306,6 @@
           "name": {
             "type": "string"
           },
-          "slug": {
-            "type": "string"
-          },
           "percentage": {
             "type": "integer"
           },
@@ -9701,9 +9635,6 @@
                   "type": "object",
                   "properties": {
                     "name": {
-                      "type": "string"
-                    },
-                    "slug": {
                       "type": "string"
                     },
                     "percentage": {
@@ -10061,9 +9992,6 @@
                 "type": "object",
                 "properties": {
                   "name": {
-                    "type": "string"
-                  },
-                  "slug": {
                     "type": "string"
                   },
                   "percentage": {
@@ -15628,9 +15556,6 @@
           "name": {
             "type": "string"
           },
-          "slug": {
-            "type": "string"
-          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -16342,9 +16267,6 @@
                       "type": "integer"
                     },
                     "name": {
-                      "type": "string"
-                    },
-                    "slug": {
                       "type": "string"
                     },
                     "createdAt": {
@@ -17086,9 +17008,6 @@
                   "name": {
                     "type": "string"
                   },
-                  "slug": {
-                    "type": "string"
-                  },
                   "createdAt": {
                     "type": "string",
                     "format": "date-time"
@@ -17444,9 +17363,6 @@
           "title": {
             "type": "string"
           },
-          "slug": {
-            "type": "string"
-          },
           "url": {
             "type": "string"
           },
@@ -17779,9 +17695,6 @@
                   "type": "object",
                   "properties": {
                     "title": {
-                      "type": "string"
-                    },
-                    "slug": {
                       "type": "string"
                     },
                     "url": {
@@ -18142,9 +18055,6 @@
                 "type": "object",
                 "properties": {
                   "title": {
-                    "type": "string"
-                  },
-                  "slug": {
                     "type": "string"
                   },
                   "url": {
@@ -18508,9 +18418,6 @@
           "name": {
             "type": "string"
           },
-          "slug": {
-            "type": "string"
-          },
           "percentage": {
             "type": "integer"
           },
@@ -18840,9 +18747,6 @@
                   "type": "object",
                   "properties": {
                     "name": {
-                      "type": "string"
-                    },
-                    "slug": {
                       "type": "string"
                     },
                     "percentage": {
@@ -19200,9 +19104,6 @@
                 "type": "object",
                 "properties": {
                   "name": {
-                    "type": "string"
-                  },
-                  "slug": {
                     "type": "string"
                   },
                   "percentage": {

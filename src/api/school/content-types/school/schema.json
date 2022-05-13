@@ -4,7 +4,8 @@
   "info": {
     "singularName": "school",
     "pluralName": "schools",
-    "displayName": "School"
+    "displayName": "School",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,17 +26,17 @@
       "required": true
     },
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
     "address": {
       "pluginOptions": {
@@ -73,15 +74,6 @@
       },
       "type": "string",
       "required": true
-    },
-    "slug": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "unique": true
     }
   }
 }

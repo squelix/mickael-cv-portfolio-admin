@@ -69,15 +69,6 @@
       "relation": "oneToMany",
       "target": "api::job-mission.job-mission"
     },
-    "slug": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "unique": true
-    },
     "jobSkills": {
       "type": "relation",
       "relation": "oneToMany",

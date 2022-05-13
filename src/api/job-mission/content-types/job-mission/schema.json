@@ -43,15 +43,6 @@
       "type": "integer",
       "required": true
     },
-    "slug": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "unique": true
-    },
     "urlName": {
       "pluginOptions": {
         "i18n": {
