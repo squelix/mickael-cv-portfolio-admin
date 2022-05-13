@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-05-13T16:23:45.887Z"
+    "x-generation-date": "2022-05-13T16:36:09.805Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -518,6 +518,9 @@
             "type": "string"
           },
           "title": {
+            "type": "string"
+          },
+          "slug": {
             "type": "string"
           },
           "createdAt": {
@@ -1222,6 +1225,9 @@
                       "type": "string"
                     },
                     "title": {
+                      "type": "string"
+                    },
+                    "slug": {
                       "type": "string"
                     },
                     "createdAt": {
@@ -1954,6 +1960,9 @@
                   "title": {
                     "type": "string"
                   },
+                  "slug": {
+                    "type": "string"
+                  },
                   "createdAt": {
                     "type": "string",
                     "format": "date-time"
@@ -2676,6 +2685,9 @@
               }
             }
           },
+          "slug": {
+            "type": "string"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -3376,6 +3388,9 @@
                           }
                         }
                       }
+                    },
+                    "slug": {
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -4103,6 +4118,9 @@
                         }
                       }
                     }
+                  },
+                  "slug": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",
@@ -4877,6 +4895,9 @@
                         "urlName": {
                           "type": "string"
                         },
+                        "slug": {
+                          "type": "string"
+                        },
                         "createdAt": {
                           "type": "string",
                           "format": "date-time"
@@ -5214,6 +5235,9 @@
                         "description": {
                           "type": "string"
                         },
+                        "slug": {
+                          "type": "string"
+                        },
                         "createdAt": {
                           "type": "string",
                           "format": "date-time"
@@ -5279,6 +5303,9 @@
                 }
               }
             }
+          },
+          "slug": {
+            "type": "string"
           },
           "createdAt": {
             "type": "string",
@@ -5767,6 +5794,9 @@
                                   "urlName": {
                                     "type": "string"
                                   },
+                                  "slug": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -6104,6 +6134,9 @@
                                   "description": {
                                     "type": "string"
                                   },
+                                  "slug": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -6169,6 +6202,9 @@
                           }
                         }
                       }
+                    },
+                    "slug": {
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -6683,6 +6719,9 @@
                                 "urlName": {
                                   "type": "string"
                                 },
+                                "slug": {
+                                  "type": "string"
+                                },
                                 "createdAt": {
                                   "type": "string",
                                   "format": "date-time"
@@ -7020,6 +7059,9 @@
                                 "description": {
                                   "type": "string"
                                 },
+                                "slug": {
+                                  "type": "string"
+                                },
                                 "createdAt": {
                                   "type": "string",
                                   "format": "date-time"
@@ -7085,6 +7127,9 @@
                         }
                       }
                     }
+                  },
+                  "slug": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",
@@ -7203,6 +7248,9 @@
             "type": "integer"
           },
           "urlName": {
+            "type": "string"
+          },
+          "slug": {
             "type": "string"
           },
           "createdAt": {
@@ -7540,6 +7588,9 @@
                       "type": "integer"
                     },
                     "urlName": {
+                      "type": "string"
+                    },
+                    "slug": {
                       "type": "string"
                     },
                     "createdAt": {
@@ -7905,6 +7956,9 @@
                   "urlName": {
                     "type": "string"
                   },
+                  "slug": {
+                    "type": "string"
+                  },
                   "createdAt": {
                     "type": "string",
                     "format": "date-time"
@@ -8263,6 +8317,9 @@
           "description": {
             "type": "string"
           },
+          "slug": {
+            "type": "string"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -8592,6 +8649,9 @@
                       "type": "string"
                     },
                     "description": {
+                      "type": "string"
+                    },
+                    "slug": {
                       "type": "string"
                     },
                     "createdAt": {
@@ -8949,6 +9009,9 @@
                     "type": "string"
                   },
                   "description": {
+                    "type": "string"
+                  },
+                  "slug": {
                     "type": "string"
                   },
                   "createdAt": {
@@ -9309,6 +9372,9 @@
           "percentage": {
             "type": "integer"
           },
+          "slug": {
+            "type": "string"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -9639,6 +9705,9 @@
                     },
                     "percentage": {
                       "type": "integer"
+                    },
+                    "slug": {
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -9996,6 +10065,9 @@
                   },
                   "percentage": {
                     "type": "integer"
+                  },
+                  "slug": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",
@@ -10843,6 +10915,9 @@
                             }
                           }
                         },
+                        "slug": {
+                          "type": "string"
+                        },
                         "createdAt": {
                           "type": "string",
                           "format": "date-time"
@@ -11902,6 +11977,9 @@
               }
             }
           },
+          "slug": {
+            "type": "string"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -12387,6 +12465,9 @@
                                         }
                                       }
                                     }
+                                  },
+                                  "slug": {
+                                    "type": "string"
                                   },
                                   "createdAt": {
                                     "type": "string",
@@ -13447,6 +13528,9 @@
                         }
                       }
                     },
+                    "slug": {
+                      "type": "string"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -13958,6 +14042,9 @@
                                       }
                                     }
                                   }
+                                },
+                                "slug": {
+                                  "type": "string"
                                 },
                                 "createdAt": {
                                   "type": "string",
@@ -15018,6 +15105,9 @@
                       }
                     }
                   },
+                  "slug": {
+                    "type": "string"
+                  },
                   "createdAt": {
                     "type": "string",
                     "format": "date-time"
@@ -15545,6 +15635,9 @@
             "type": "integer"
           },
           "name": {
+            "type": "string"
+          },
+          "slug": {
             "type": "string"
           },
           "createdAt": {
@@ -16258,6 +16351,9 @@
                       "type": "integer"
                     },
                     "name": {
+                      "type": "string"
+                    },
+                    "slug": {
                       "type": "string"
                     },
                     "createdAt": {
@@ -16999,6 +17095,9 @@
                   "name": {
                     "type": "string"
                   },
+                  "slug": {
+                    "type": "string"
+                  },
                   "createdAt": {
                     "type": "string",
                     "format": "date-time"
@@ -17360,6 +17459,9 @@
           "urlName": {
             "type": "string"
           },
+          "slug": {
+            "type": "string"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -17692,6 +17794,9 @@
                       "type": "string"
                     },
                     "urlName": {
+                      "type": "string"
+                    },
+                    "slug": {
                       "type": "string"
                     },
                     "createdAt": {
@@ -18054,6 +18159,9 @@
                   "urlName": {
                     "type": "string"
                   },
+                  "slug": {
+                    "type": "string"
+                  },
                   "createdAt": {
                     "type": "string",
                     "format": "date-time"
@@ -18412,6 +18520,9 @@
           "percentage": {
             "type": "integer"
           },
+          "slug": {
+            "type": "string"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -18742,6 +18853,9 @@
                     },
                     "percentage": {
                       "type": "integer"
+                    },
+                    "slug": {
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -19099,6 +19213,9 @@
                   },
                   "percentage": {
                     "type": "integer"
+                  },
+                  "slug": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",
@@ -19827,6 +19944,9 @@
                         }
                       }
                     },
+                    "slug": {
+                      "type": "string"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -20546,6 +20666,9 @@
                         }
                       }
                     }
+                  },
+                  "slug": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",
