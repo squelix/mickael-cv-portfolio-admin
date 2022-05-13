@@ -75,15 +75,6 @@
       "relation": "oneToMany",
       "target": "api::social-network.social-network"
     },
-    "slug": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "unique": true
-    },
     "picture": {
       "type": "media",
       "multiple": false,
@@ -116,17 +107,17 @@
       "required": true
     },
     "cv": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "files"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     }
   }
 }
