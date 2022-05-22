@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-05-13T16:36:09.805Z"
+    "x-generation-date": "2022-05-22T09:14:50.846Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -10397,9 +10397,6 @@
           "lastname": {
             "type": "string"
           },
-          "age": {
-            "type": "integer"
-          },
           "address": {
             "type": "string"
           },
@@ -10437,6 +10434,9 @@
               }
             ],
             "example": "string or id"
+          },
+          "birthYear": {
+            "type": "integer"
           }
         }
       },
@@ -10451,9 +10451,6 @@
               },
               "lastname": {
                 "type": "string"
-              },
-              "age": {
-                "type": "integer"
               },
               "address": {
                 "type": "string"
@@ -10492,6 +10489,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "birthYear": {
+                "type": "integer"
               }
             }
           }
@@ -10508,9 +10508,6 @@
           },
           "lastname": {
             "type": "string"
-          },
-          "age": {
-            "type": "integer"
           },
           "address": {
             "type": "string"
@@ -11980,6 +11977,9 @@
           "slug": {
             "type": "string"
           },
+          "birthYear": {
+            "type": "integer"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -12059,9 +12059,6 @@
                     },
                     "lastname": {
                       "type": "string"
-                    },
-                    "age": {
-                      "type": "integer"
                     },
                     "address": {
                       "type": "string"
@@ -13531,6 +13528,9 @@
                     "slug": {
                       "type": "string"
                     },
+                    "birthYear": {
+                      "type": "integer"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -13636,9 +13636,6 @@
                   },
                   "lastname": {
                     "type": "string"
-                  },
-                  "age": {
-                    "type": "integer"
                   },
                   "address": {
                     "type": "string"
@@ -15107,6 +15104,9 @@
                   },
                   "slug": {
                     "type": "string"
+                  },
+                  "birthYear": {
+                    "type": "integer"
                   },
                   "createdAt": {
                     "type": "string",
