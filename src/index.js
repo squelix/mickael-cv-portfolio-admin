@@ -7,7 +7,27 @@ module.exports = {
    *
    * This gives you an opportunity to extend code.
    */
-  register(/*{ strapi }*/) {},
+  register({ strapi }) {
+    [
+      'profile.profile',
+      'icon.icon',
+      'interest.interest',
+      'job.job',
+      'job-mission.job-mission',
+      'job-skill.job-skill',
+      'language.language',
+      'school.school',
+      'school-project.school-project',
+      'skill.skill',
+      'social-network.social-network',
+    ].forEach((name) => {
+      strapi
+        .plugin('graphql')
+        .service('extension')
+        .shadowCRUD(`api::${name}`)
+        .disableActions(['create', 'delete', 'update']);
+    });
+  },
 
   /**
    * An asynchronous bootstrap function that runs before
