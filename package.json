@@ -12,11 +12,11 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@strapi/plugin-documentation": "4.2.3",
-    "@strapi/plugin-graphql": "4.2.3",
-    "@strapi/plugin-i18n": "4.2.3",
-    "@strapi/plugin-users-permissions": "4.2.3",
-    "@strapi/strapi": "4.2.3",
+    "@strapi/plugin-documentation": "4.3.0",
+    "@strapi/plugin-graphql": "4.3.0",
+    "@strapi/plugin-i18n": "4.3.0",
+    "@strapi/plugin-users-permissions": "4.3.0",
+    "@strapi/strapi": "4.3.0",
     "better-sqlite3": "7.6.2",
     "pg": "8.7.3",
     "pg-connection-string": "^2.5.0",
