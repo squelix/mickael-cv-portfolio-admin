@@ -1,5 +1,7 @@
 # 🚀 Getting started with Strapi
 
+[![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/fn5z.svg)](https://betteruptime.com/?utm_source=status_badge)
+
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
 ### `develop`
