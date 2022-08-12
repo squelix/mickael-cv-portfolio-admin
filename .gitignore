@@ -126,3 +126,5 @@ package-lock.json
 
 !src/api/icon
 !src/api/icon/**
+
+dist
