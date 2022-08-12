@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-08-06T06:09:09.759Z"
+    "x-generation-date": "2022-08-12T12:54:32.746Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -41357,6 +41357,60 @@
                 "password": "Test1234",
                 "passwordConfirmation": "Test1234",
                 "code": "zertyoaizndoianzodianzdonaizdoinaozdnia"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Returns a jwt token and user info",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Users-Permissions-UserRegistration"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/auth/change-password": {
+      "post": {
+        "tags": [
+          "Users-Permissions - Auth"
+        ],
+        "summary": "Update user's own password",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "password": {
+                    "required": true,
+                    "type": "string"
+                  },
+                  "currentPassword": {
+                    "required": true,
+                    "type": "string"
+                  },
+                  "passwordConfirmation": {
+                    "required": true,
+                    "type": "string"
+                  }
+                }
               }
             }
           }
