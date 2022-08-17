@@ -4,11 +4,11 @@ import url from 'url';
 export default {
   async send(ctx) {
     try {
-      const { token, subject, text, html } = ctx.request.body;
+      const { token, subject, text, html, email } = ctx.request.body;
       const accessToken = ctx.request.headers['x-access-token'];
       const myAccessToken = strapi.config.get('mail.accessToken');
 
-      if (!token || !subject || !text || !html) {
+      if (!token || !subject || !text || !html || !email) {
         ctx.status = 400;
         ctx.body = 'Bad Request';
       } else if (!accessToken || accessToken !== myAccessToken) {
@@ -30,7 +30,7 @@ export default {
           await strapi.plugins['email'].services.email.send({
             to: strapi.config.get('mail.sender'),
             from: strapi.config.get('mail.sender'),
-            replyTo: strapi.config.get('mail.sender'),
+            replyTo: email,
             subject,
             text,
             html,

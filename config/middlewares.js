@@ -4,7 +4,15 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      headers: ['Content-Type', 'Authorization', 'Origin', 'Accept', 'sentry-trace', 'baggage'],
+      headers: [
+        'Content-Type',
+        'Authorization',
+        'Origin',
+        'Accept',
+        'sentry-trace',
+        'baggage',
+        'x-access-token',
+      ],
       origin: ['*'],
     },
   },
