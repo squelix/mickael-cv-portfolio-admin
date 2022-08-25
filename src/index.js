@@ -20,6 +20,8 @@ module.exports = {
       'school-project.school-project',
       'skill.skill',
       'social-network.social-network',
+      'project.project',
+      'techno.techno',
     ].forEach((name) => {
       strapi
         .plugin('graphql')
