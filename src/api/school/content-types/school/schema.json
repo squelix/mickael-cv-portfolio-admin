@@ -25,14 +25,16 @@
       "type": "string",
       "required": true
     },
-    "logo": {
+    "picture": {
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": ["images"],
+      "allowedTypes": [
+        "images"
+      ],
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
