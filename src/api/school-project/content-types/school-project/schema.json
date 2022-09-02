@@ -51,7 +51,7 @@
       },
       "type": "uid",
       "targetField": "title",
-      "required": false
+      "required": true
     },
     "picture": {
       "type": "media",

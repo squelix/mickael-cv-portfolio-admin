@@ -112,7 +112,8 @@
           "localized": true
         }
       },
-      "type": "uid"
+      "type": "uid",
+      "required": true
     },
     "birthYear": {
       "pluginOptions": {
