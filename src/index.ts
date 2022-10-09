@@ -10,7 +10,7 @@ export default {
   register({ strapi }: { strapi: Strapi }) {
     [
       'icon.icon',
-      'interest.interest',
+      'hobby.hobby',
       'job.job',
       'job-mission.job-mission',
       'job-skill.job-skill',
