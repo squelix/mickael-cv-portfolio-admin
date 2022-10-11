@@ -25,15 +25,6 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
-    },
     "slug": {
       "pluginOptions": {
         "i18n": {
@@ -42,6 +33,15 @@
       },
       "type": "uid",
       "targetField": "name"
+    },
+    "category": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": ["Frontend Technique", "Frontend Global", "Backend", "Devops", "Mobile", "BI "]
     }
   }
 }

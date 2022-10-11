@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-10-07T10:08:14.530Z"
+    "x-generation-date": "2022-10-11T11:52:35.410Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -6825,6 +6825,7 @@
           "title",
           "location",
           "startDate",
+          "pictureUrl",
           "locale"
         ],
         "type": "object",
@@ -6885,6 +6886,9 @@
           "slug": {
             "type": "string"
           },
+          "pictureUrl": {
+            "type": "string"
+          },
           "locale": {
             "type": "string"
           },
@@ -6903,7 +6907,8 @@
             "required": [
               "title",
               "location",
-              "startDate"
+              "startDate",
+              "pictureUrl"
             ],
             "type": "object",
             "properties": {
@@ -6961,6 +6966,9 @@
                 }
               },
               "slug": {
+                "type": "string"
+              },
+              "pictureUrl": {
                 "type": "string"
               },
               "locale": {
@@ -7988,11 +7996,19 @@
                         "name": {
                           "type": "string"
                         },
-                        "description": {
-                          "type": "string"
-                        },
                         "slug": {
                           "type": "string"
+                        },
+                        "category": {
+                          "type": "string",
+                          "enum": [
+                            "Frontend Technique",
+                            "Frontend Global",
+                            "Backend",
+                            "Devops",
+                            "Mobile",
+                            "BI "
+                          ]
                         },
                         "createdAt": {
                           "type": "string",
@@ -8063,6 +8079,9 @@
             }
           },
           "slug": {
+            "type": "string"
+          },
+          "pictureUrl": {
             "type": "string"
           },
           "createdAt": {
@@ -9146,11 +9165,19 @@
                             "name": {
                               "type": "string"
                             },
-                            "description": {
-                              "type": "string"
-                            },
                             "slug": {
                               "type": "string"
+                            },
+                            "category": {
+                              "type": "string",
+                              "enum": [
+                                "Frontend Technique",
+                                "Frontend Global",
+                                "Backend",
+                                "Devops",
+                                "Mobile",
+                                "BI "
+                              ]
                             },
                             "createdAt": {
                               "type": "string",
@@ -9221,6 +9248,9 @@
                 }
               },
               "slug": {
+                "type": "string"
+              },
+              "pictureUrl": {
                 "type": "string"
               },
               "createdAt": {
@@ -10308,11 +10338,19 @@
                             "name": {
                               "type": "string"
                             },
-                            "description": {
-                              "type": "string"
-                            },
                             "slug": {
                               "type": "string"
+                            },
+                            "category": {
+                              "type": "string",
+                              "enum": [
+                                "Frontend Technique",
+                                "Frontend Global",
+                                "Backend",
+                                "Devops",
+                                "Mobile",
+                                "BI "
+                              ]
                             },
                             "createdAt": {
                               "type": "string",
@@ -10383,6 +10421,9 @@
                 }
               },
               "slug": {
+                "type": "string"
+              },
+              "pictureUrl": {
                 "type": "string"
               },
               "createdAt": {
@@ -11501,11 +11542,19 @@
                             "name": {
                               "type": "string"
                             },
-                            "description": {
-                              "type": "string"
-                            },
                             "slug": {
                               "type": "string"
+                            },
+                            "category": {
+                              "type": "string",
+                              "enum": [
+                                "Frontend Technique",
+                                "Frontend Global",
+                                "Backend",
+                                "Devops",
+                                "Mobile",
+                                "BI "
+                              ]
                             },
                             "createdAt": {
                               "type": "string",
@@ -11576,6 +11625,9 @@
                 }
               },
               "slug": {
+                "type": "string"
+              },
+              "pictureUrl": {
                 "type": "string"
               },
               "createdAt": {
@@ -12663,11 +12715,19 @@
                             "name": {
                               "type": "string"
                             },
-                            "description": {
-                              "type": "string"
-                            },
                             "slug": {
                               "type": "string"
+                            },
+                            "category": {
+                              "type": "string",
+                              "enum": [
+                                "Frontend Technique",
+                                "Frontend Global",
+                                "Backend",
+                                "Devops",
+                                "Mobile",
+                                "BI "
+                              ]
                             },
                             "createdAt": {
                               "type": "string",
@@ -12738,6 +12798,9 @@
                 }
               },
               "slug": {
+                "type": "string"
+              },
+              "pictureUrl": {
                 "type": "string"
               },
               "createdAt": {
@@ -14631,7 +14694,6 @@
       "JobSkillLocalizationRequest": {
         "required": [
           "name",
-          "description",
           "locale"
         ],
         "type": "object",
@@ -14639,11 +14701,19 @@
           "name": {
             "type": "string"
           },
-          "description": {
-            "type": "string"
-          },
           "slug": {
             "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "Frontend Technique",
+              "Frontend Global",
+              "Backend",
+              "Devops",
+              "Mobile",
+              "BI "
+            ]
           },
           "locale": {
             "type": "string"
@@ -14661,19 +14731,26 @@
         "properties": {
           "data": {
             "required": [
-              "name",
-              "description"
+              "name"
             ],
             "type": "object",
             "properties": {
               "name": {
                 "type": "string"
               },
-              "description": {
-                "type": "string"
-              },
               "slug": {
                 "type": "string"
+              },
+              "category": {
+                "type": "string",
+                "enum": [
+                  "Frontend Technique",
+                  "Frontend Global",
+                  "Backend",
+                  "Devops",
+                  "Mobile",
+                  "BI "
+                ]
               },
               "locale": {
                 "type": "string"
@@ -14694,11 +14771,19 @@
           "name": {
             "type": "string"
           },
-          "description": {
-            "type": "string"
-          },
           "slug": {
             "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "Frontend Technique",
+              "Frontend Global",
+              "Backend",
+              "Devops",
+              "Mobile",
+              "BI "
+            ]
           },
           "createdAt": {
             "type": "string",
@@ -15026,11 +15111,19 @@
               "name": {
                 "type": "string"
               },
-              "description": {
-                "type": "string"
-              },
               "slug": {
                 "type": "string"
+              },
+              "category": {
+                "type": "string",
+                "enum": [
+                  "Frontend Technique",
+                  "Frontend Global",
+                  "Backend",
+                  "Devops",
+                  "Mobile",
+                  "BI "
+                ]
               },
               "createdAt": {
                 "type": "string",
@@ -15362,11 +15455,19 @@
               "name": {
                 "type": "string"
               },
-              "description": {
-                "type": "string"
-              },
               "slug": {
                 "type": "string"
+              },
+              "category": {
+                "type": "string",
+                "enum": [
+                  "Frontend Technique",
+                  "Frontend Global",
+                  "Backend",
+                  "Devops",
+                  "Mobile",
+                  "BI "
+                ]
               },
               "createdAt": {
                 "type": "string",
@@ -15729,11 +15830,19 @@
               "name": {
                 "type": "string"
               },
-              "description": {
-                "type": "string"
-              },
               "slug": {
                 "type": "string"
+              },
+              "category": {
+                "type": "string",
+                "enum": [
+                  "Frontend Technique",
+                  "Frontend Global",
+                  "Backend",
+                  "Devops",
+                  "Mobile",
+                  "BI "
+                ]
               },
               "createdAt": {
                 "type": "string",
@@ -16065,11 +16174,19 @@
               "name": {
                 "type": "string"
               },
-              "description": {
-                "type": "string"
-              },
               "slug": {
                 "type": "string"
+              },
+              "category": {
+                "type": "string",
+                "enum": [
+                  "Frontend Technique",
+                  "Frontend Global",
+                  "Backend",
+                  "Devops",
+                  "Mobile",
+                  "BI "
+                ]
               },
               "createdAt": {
                 "type": "string",
