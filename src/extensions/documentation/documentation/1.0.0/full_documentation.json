@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-10-14T14:36:12.140Z"
+    "x-generation-date": "2022-10-16T16:51:05.503Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -6826,6 +6826,7 @@
           "location",
           "startDate",
           "pictureUrl",
+          "companyName",
           "locale"
         ],
         "type": "object",
@@ -6889,6 +6890,9 @@
           "pictureUrl": {
             "type": "string"
           },
+          "companyName": {
+            "type": "string"
+          },
           "locale": {
             "type": "string"
           },
@@ -6908,7 +6912,8 @@
               "title",
               "location",
               "startDate",
-              "pictureUrl"
+              "pictureUrl",
+              "companyName"
             ],
             "type": "object",
             "properties": {
@@ -6969,6 +6974,9 @@
                 "type": "string"
               },
               "pictureUrl": {
+                "type": "string"
+              },
+              "companyName": {
                 "type": "string"
               },
               "locale": {
@@ -8082,6 +8090,9 @@
             "type": "string"
           },
           "pictureUrl": {
+            "type": "string"
+          },
+          "companyName": {
             "type": "string"
           },
           "createdAt": {
@@ -9251,6 +9262,9 @@
                 "type": "string"
               },
               "pictureUrl": {
+                "type": "string"
+              },
+              "companyName": {
                 "type": "string"
               },
               "createdAt": {
@@ -10424,6 +10438,9 @@
                 "type": "string"
               },
               "pictureUrl": {
+                "type": "string"
+              },
+              "companyName": {
                 "type": "string"
               },
               "createdAt": {
@@ -11630,6 +11647,9 @@
               "pictureUrl": {
                 "type": "string"
               },
+              "companyName": {
+                "type": "string"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -12801,6 +12821,9 @@
                 "type": "string"
               },
               "pictureUrl": {
+                "type": "string"
+              },
+              "companyName": {
                 "type": "string"
               },
               "createdAt": {
@@ -35709,7 +35732,7 @@
           "address",
           "startYear",
           "endYear",
-          "name",
+          "schoolName",
           "locale"
         ],
         "type": "object",
@@ -35737,10 +35760,13 @@
           "endYear": {
             "type": "integer"
           },
-          "name": {
+          "slug": {
             "type": "string"
           },
-          "slug": {
+          "pictureUrl": {
+            "type": "string"
+          },
+          "schoolName": {
             "type": "string"
           },
           "locale": {
@@ -35764,7 +35790,7 @@
               "address",
               "startYear",
               "endYear",
-              "name"
+              "schoolName"
             ],
             "type": "object",
             "properties": {
@@ -35791,10 +35817,13 @@
               "endYear": {
                 "type": "integer"
               },
-              "name": {
+              "slug": {
                 "type": "string"
               },
-              "slug": {
+              "pictureUrl": {
+                "type": "string"
+              },
+              "schoolName": {
                 "type": "string"
               },
               "locale": {
@@ -36455,10 +36484,13 @@
           "endYear": {
             "type": "integer"
           },
-          "name": {
+          "slug": {
             "type": "string"
           },
-          "slug": {
+          "pictureUrl": {
+            "type": "string"
+          },
+          "schoolName": {
             "type": "string"
           },
           "createdAt": {
@@ -37426,10 +37458,13 @@
               "endYear": {
                 "type": "integer"
               },
-              "name": {
+              "slug": {
                 "type": "string"
               },
-              "slug": {
+              "pictureUrl": {
+                "type": "string"
+              },
+              "schoolName": {
                 "type": "string"
               },
               "createdAt": {
@@ -38401,10 +38436,13 @@
               "endYear": {
                 "type": "integer"
               },
-              "name": {
+              "slug": {
                 "type": "string"
               },
-              "slug": {
+              "pictureUrl": {
+                "type": "string"
+              },
+              "schoolName": {
                 "type": "string"
               },
               "createdAt": {
@@ -39407,10 +39445,13 @@
               "endYear": {
                 "type": "integer"
               },
-              "name": {
+              "slug": {
                 "type": "string"
               },
-              "slug": {
+              "pictureUrl": {
+                "type": "string"
+              },
+              "schoolName": {
                 "type": "string"
               },
               "createdAt": {
@@ -40382,10 +40423,13 @@
               "endYear": {
                 "type": "integer"
               },
-              "name": {
+              "slug": {
                 "type": "string"
               },
-              "slug": {
+              "pictureUrl": {
+                "type": "string"
+              },
+              "schoolName": {
                 "type": "string"
               },
               "createdAt": {
