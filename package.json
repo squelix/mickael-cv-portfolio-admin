@@ -2,7 +2,17 @@
   "name": "mickael-cv-portfolio-admin",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "license": "MIT",
+  "description": "A Strapi application for a Portfolio",
+  "author": {
+		"name": "Mickaël Depardon",
+		"email": "contact@mickael-depardon.fr",
+		"url": "https://mickael-depardon.fr"
+	},
+  "engines": {
+    "node": "16",
+    "npm": "8"
+  },
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -26,17 +36,10 @@
     "strapi-plugin-local-image-sharp": "1.2.1",
     "strapi-plugin-sitemap": "2.0.8"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
   "strapi": {
     "uuid": "a27cadad-9f04-4e38-ba3c-94b2fa3d0c54"
   },
-  "engines": {
-    "node": "16",
-    "npm": "8"
-  },
-  "license": "MIT",
+
   "devDependencies": {
     "prettier": "^2.7.1"
   }
