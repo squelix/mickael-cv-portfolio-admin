@@ -32,7 +32,7 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": false
     },
     "urlName": {
       "pluginOptions": {
@@ -41,7 +41,7 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": false
     },
     "slug": {
       "pluginOptions": {
