@@ -24,9 +24,6 @@ export default ({ env }) => ({
       },
     },
   },
-  'import-export-entries': {
-    enabled: true,
-  },
   upload: {
     config: {
       provider: 'cloudinary',
