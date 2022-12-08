@@ -37,6 +37,6 @@
     "uuid": "a27cadad-9f04-4e38-ba3c-94b2fa3d0c54"
   },
   "devDependencies": {
-    "prettier": "^2.8.0"
+    "prettier": "^2.8.1"
   }
 }
