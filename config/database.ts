@@ -1,11 +1,18 @@
-import path from 'path';
+import { parse } from 'pg-connection-string';
 
-export default ({ env }) => ({
+const config = parse(process.env.DATABASE_URL);
+
+export default () => ({
   connection: {
-    client: 'sqlite',
+    client: 'postgres',
     connection: {
-      filename: path.join(__dirname, '..', '..', env('DATABASE_FILENAME', '.tmp/data.db')),
+      host: config.host,
+      port: config.port,
+      database: config.database,
+      user: config.user,
+      password: config.password,
+      ssl: false,
     },
-    useNullAsDefault: true,
+    debug: false,
   },
 });
