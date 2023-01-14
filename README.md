@@ -1,7 +1,6 @@
 # 🚀 Getting started with Strapi
 
-![Deploy](https://pyheroku-badge.herokuapp.com/?app=mickael-cv-portfolio-admin&style=flat-square)
-[![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/fn5z.svg)](https://betteruptime.com/?utm_source=status_badge)
+[![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/ld0k.svg)](https://betteruptime.com/?utm_source=status_badge)
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
