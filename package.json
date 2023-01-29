@@ -23,15 +23,15 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@strapi/plugin-documentation": "4.5.6",
-    "@strapi/plugin-graphql": "4.5.6",
-    "@strapi/plugin-i18n": "4.5.6",
-    "@strapi/plugin-users-permissions": "4.5.6",
-    "@strapi/provider-email-sendgrid": "4.5.6",
-    "@strapi/provider-upload-cloudinary": "4.5.6",
-    "@strapi/strapi": "4.5.6",
+    "@strapi/plugin-documentation": "4.6.0",
+    "@strapi/plugin-graphql": "4.6.0",
+    "@strapi/plugin-i18n": "4.6.0",
+    "@strapi/plugin-users-permissions": "4.6.0",
+    "@strapi/provider-email-sendgrid": "4.6.0",
+    "@strapi/provider-upload-cloudinary": "4.6.0",
+    "@strapi/strapi": "4.6.0",
     "better-sqlite3": "8.0.1",
-    "pg": "8.8.0",
+    "pg": "8.9.0",
     "pg-connection-string": "2.5.0"
   },
   "strapi": {
