@@ -11,7 +11,7 @@
   },
   "engines": {
     "node": "18",
-    "npm": "8"
+    "npm": "9"
   },
   "scripts": {
     "predevelop": "docker start postgres-strapi",
