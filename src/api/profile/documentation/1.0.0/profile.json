@@ -7,7 +7,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ProfileListResponse"
+                "$ref": "#/components/schemas/ProfileResponse"
               }
             }
           }
