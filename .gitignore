@@ -128,3 +128,5 @@ package-lock.json
 !src/api/icon/**
 
 dist
+
+schemas.d.ts
