@@ -23,16 +23,16 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@strapi/plugin-documentation": "4.11.2",
-    "@strapi/plugin-graphql": "4.11.2",
-    "@strapi/plugin-i18n": "4.11.2",
-    "@strapi/plugin-users-permissions": "4.11.2",
-    "@strapi/provider-email-sendgrid": "4.11.2",
-    "@strapi/provider-upload-cloudinary": "4.11.2",
-    "@strapi/strapi": "4.11.2",
+    "@strapi/plugin-documentation": "4.11.3",
+    "@strapi/plugin-graphql": "4.11.3",
+    "@strapi/plugin-i18n": "4.11.3",
+    "@strapi/plugin-users-permissions": "4.11.3",
+    "@strapi/provider-email-sendgrid": "4.11.3",
+    "@strapi/provider-upload-cloudinary": "4.11.3",
+    "@strapi/strapi": "4.11.3",
     "better-sqlite3": "8.4.0",
-    "pg": "8.11.0",
-    "pg-connection-string": "2.6.0"
+    "pg": "8.11.1",
+    "pg-connection-string": "2.6.1"
   },
   "strapi": {
     "uuid": "a27cadad-9f04-4e38-ba3c-94b2fa3d0c54"

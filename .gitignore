@@ -130,3 +130,4 @@ package-lock.json
 dist
 
 schemas.d.ts
+types
