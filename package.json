@@ -23,13 +23,13 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@strapi/plugin-documentation": "4.11.3",
-    "@strapi/plugin-graphql": "4.11.3",
-    "@strapi/plugin-i18n": "4.11.3",
-    "@strapi/plugin-users-permissions": "4.11.3",
-    "@strapi/provider-email-sendgrid": "4.11.3",
-    "@strapi/provider-upload-cloudinary": "4.11.3",
-    "@strapi/strapi": "4.11.3",
+    "@strapi/plugin-documentation": "4.11.4",
+    "@strapi/plugin-graphql": "4.11.4",
+    "@strapi/plugin-i18n": "4.11.4",
+    "@strapi/plugin-users-permissions": "4.11.4",
+    "@strapi/provider-email-sendgrid": "4.11.4",
+    "@strapi/provider-upload-cloudinary": "4.11.4",
+    "@strapi/strapi": "4.11.4",
     "better-sqlite3": "8.4.0",
     "pg": "8.11.1",
     "pg-connection-string": "2.6.1"
@@ -38,6 +38,6 @@
     "uuid": "a27cadad-9f04-4e38-ba3c-94b2fa3d0c54"
   },
   "devDependencies": {
-    "prettier": "^2.8.8"
+    "prettier": "^3.0.0"
   }
 }
