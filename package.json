@@ -30,8 +30,8 @@
     "@strapi/provider-email-sendgrid": "4.12.5",
     "@strapi/provider-upload-cloudinary": "4.12.5",
     "@strapi/strapi": "4.12.5",
-    "better-sqlite3": "8.5.0",
-    "pg": "8.11.2",
+    "better-sqlite3": "8.5.1",
+    "pg": "8.11.3",
     "pg-connection-string": "2.6.2"
   },
   "strapi": {
