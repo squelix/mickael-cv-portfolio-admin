@@ -23,14 +23,14 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@strapi/plugin-documentation": "4.15.4",
-    "@strapi/plugin-graphql": "4.15.4",
-    "@strapi/plugin-i18n": "4.15.4",
-    "@strapi/plugin-users-permissions": "4.15.4",
-    "@strapi/provider-email-sendgrid": "4.15.4",
-    "@strapi/provider-upload-cloudinary": "4.15.4",
-    "@strapi/strapi": "4.15.4",
-    "better-sqlite3": "9.1.1",
+    "@strapi/plugin-documentation": "4.15.5",
+    "@strapi/plugin-graphql": "4.15.5",
+    "@strapi/plugin-i18n": "4.15.5",
+    "@strapi/plugin-users-permissions": "4.15.5",
+    "@strapi/provider-email-sendgrid": "4.15.5",
+    "@strapi/provider-upload-cloudinary": "4.15.5",
+    "@strapi/strapi": "4.15.5",
+    "better-sqlite3": "9.2.0",
     "pg": "8.11.3",
     "pg-connection-string": "2.6.2"
   },
