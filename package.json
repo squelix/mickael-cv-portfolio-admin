@@ -14,7 +14,7 @@
     "npm": "9"
   },
   "scripts": {
-    "predevelop": "docker start postgres-strapi",
+    "_predevelop": "docker start postgres-strapi",
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
@@ -32,7 +32,11 @@
     "@strapi/strapi": "4.15.5",
     "better-sqlite3": "9.2.2",
     "pg": "8.11.3",
-    "pg-connection-string": "2.6.2"
+    "pg-connection-string": "2.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.11"
   },
   "strapi": {
     "uuid": "a27cadad-9f04-4e38-ba3c-94b2fa3d0c54"

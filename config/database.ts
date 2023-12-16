@@ -11,7 +11,9 @@ export default () => ({
       database: config.database,
       user: config.user,
       password: config.password,
-      ssl: false,
+      ssl: {
+        rejectUnauthorized: false,
+      },
     },
     debug: false,
   },
