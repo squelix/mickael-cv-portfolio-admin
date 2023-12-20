@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@strapi/plugin-documentation": "4.15.5",
-    "@strapi/plugin-graphql": "4.15.5",
+    "@strapi/plugin-graphql": "4.16.0",
     "@strapi/plugin-i18n": "4.15.5",
     "@strapi/plugin-users-permissions": "4.15.5",
     "@strapi/provider-email-sendgrid": "4.15.5",
