@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-12-16T10:59:15.705Z"
+    "x-generation-date": "2024-01-10T15:08:17.969Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -580,7 +580,7 @@
               "data": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/Hobby"
+                  "$ref": "#/components/schemas/HobbyListResponseDataItemLocalized"
                 }
               }
             }
@@ -1786,7 +1786,7 @@
               "data": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/Job"
+                  "$ref": "#/components/schemas/JobListResponseDataItemLocalized"
                 }
               }
             }
@@ -2321,7 +2321,7 @@
               "data": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/JobMission"
+                  "$ref": "#/components/schemas/JobMissionListResponseDataItemLocalized"
                 }
               }
             }
@@ -2859,7 +2859,7 @@
               "data": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/JobSkill"
+                  "$ref": "#/components/schemas/JobSkillListResponseDataItemLocalized"
                 }
               }
             }
@@ -3376,7 +3376,7 @@
               "data": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/Language"
+                  "$ref": "#/components/schemas/LanguageListResponseDataItemLocalized"
                 }
               }
             }
@@ -4785,7 +4785,7 @@
               "data": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/Profile"
+                  "$ref": "#/components/schemas/ProfileListResponseDataItemLocalized"
                 }
               }
             }
@@ -5869,7 +5869,7 @@
               "data": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/Project"
+                  "$ref": "#/components/schemas/ProjectListResponseDataItemLocalized"
                 }
               }
             }
@@ -6826,7 +6826,7 @@
               "data": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/School"
+                  "$ref": "#/components/schemas/SchoolListResponseDataItemLocalized"
                 }
               }
             }
@@ -7910,7 +7910,7 @@
               "data": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/SchoolProject"
+                  "$ref": "#/components/schemas/SchoolProjectListResponseDataItemLocalized"
                 }
               }
             }
@@ -8427,7 +8427,7 @@
               "data": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/Skill"
+                  "$ref": "#/components/schemas/SkillListResponseDataItemLocalized"
                 }
               }
             }

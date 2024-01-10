@@ -13,6 +13,9 @@
     "node": "18",
     "npm": "9"
   },
+  "overrides": {
+    "graphql": "^15.5.1"
+  },
   "scripts": {
     "_predevelop": "docker start postgres-strapi",
     "develop": "strapi develop",
