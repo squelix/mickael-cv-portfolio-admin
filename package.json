@@ -33,7 +33,7 @@
     "@strapi/provider-email-sendgrid": "4.20.0",
     "@strapi/provider-upload-cloudinary": "4.20.0",
     "@strapi/strapi": "4.20.0",
-    "better-sqlite3": "9.4.0",
+    "better-sqlite3": "9.4.1",
     "pg": "8.11.3",
     "pg-connection-string": "2.6.2",
     "react": "^18.2.0",
