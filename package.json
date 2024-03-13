@@ -34,6 +34,7 @@
     "@strapi/provider-upload-cloudinary": "4.20.3",
     "@strapi/strapi": "4.20.3",
     "better-sqlite3": "9.4.3",
+    "koa": "2.15.0",
     "pg": "8.11.3",
     "pg-connection-string": "2.6.2",
     "react": "^18.2.0",
@@ -45,6 +46,7 @@
     "uuid": "a27cadad-9f04-4e38-ba3c-94b2fa3d0c54"
   },
   "devDependencies": {
+    "@types/koa": "2.15.0",
     "prettier": "^3.2.5"
   }
 }

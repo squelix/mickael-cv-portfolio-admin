@@ -36,5 +36,12 @@ export default [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
-  'strapi::compression',
+  {
+    name: 'strapi::compression',
+    config: {
+      br: true,
+      gzip: true,
+    },
+  },
+  'global::custom-header',
 ];
