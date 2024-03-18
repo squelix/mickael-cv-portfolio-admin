@@ -46,7 +46,7 @@
     "uuid": "a27cadad-9f04-4e38-ba3c-94b2fa3d0c54"
   },
   "devDependencies": {
-    "@types/koa": "2.15.0",
+    "@types/koa": "2.13.4",
     "prettier": "^3.2.5"
   }
 }
