@@ -10,8 +10,15 @@ export default (_config, { strapi: _strapi }: { strapi: Strapi }) => {
   // Add your own logic here.
   return async (ctx: Context, next) => {
     const method = ctx.request.method.toLowerCase();
-    if (method === 'get' || method === 'head') {
-      ctx.response.set('Cache-Control', 'max-age=21600');
+    const path = ctx.request.path.toLowerCase();
+    const origin = ctx.request.origin.toLowerCase();
+
+    if (
+      path.includes('/api/') &&
+      !origin.includes('strapi') &&
+      (method === 'get' || method === 'head')
+    ) {
+      ctx.response.set('Cache-Control', 'max-age=43200');
     }
 
     await next();
