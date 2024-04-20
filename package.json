@@ -11,7 +11,7 @@
   },
   "engines": {
     "node": "18",
-    "npm": "9"
+    "npm": "10"
   },
   "overrides": {
     "graphql": "^15.5.1"
@@ -27,13 +27,13 @@
   },
   "dependencies": {
     "@ckeditor/strapi-plugin-ckeditor": "^0.0.11",
-    "@strapi/plugin-documentation": "4.23.0",
-    "@strapi/plugin-graphql": "4.23.0",
-    "@strapi/plugin-i18n": "4.23.0",
-    "@strapi/plugin-users-permissions": "4.23.0",
-    "@strapi/provider-email-sendgrid": "4.23.0",
-    "@strapi/provider-upload-cloudinary": "4.23.0",
-    "@strapi/strapi": "4.23.0",
+    "@strapi/plugin-documentation": "4.23.1",
+    "@strapi/plugin-graphql": "4.23.1",
+    "@strapi/plugin-i18n": "4.23.1",
+    "@strapi/plugin-users-permissions": "4.23.1",
+    "@strapi/provider-email-sendgrid": "4.23.1",
+    "@strapi/provider-upload-cloudinary": "4.23.1",
+    "@strapi/strapi": "4.23.1",
     "better-sqlite3": "9.5.0",
     "koa": "2.13.4",
     "pg": "8.11.5",
