@@ -34,7 +34,7 @@
     "@strapi/provider-email-sendgrid": "4.24.0",
     "@strapi/provider-upload-cloudinary": "4.24.0",
     "@strapi/strapi": "4.24.0",
-    "better-sqlite3": "9.5.0",
+    "better-sqlite3": "9.6.0",
     "koa": "2.13.4",
     "pg": "8.11.5",
     "pg-connection-string": "2.6.4",
