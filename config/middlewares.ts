@@ -20,8 +20,10 @@ export default [
       headers: '*',
       origin: [
         'https://admin.mickael-depardon.com',
+        'https://admin.mickael-depardon.fr',
         'https://mickael-depardon.fr',
         'https://mickael-depardon.com',
+        'https://mickael-cv-portfolio-admin.herokuapp.com'
       ],
     },
   },
