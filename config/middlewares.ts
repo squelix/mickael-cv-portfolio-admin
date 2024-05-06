@@ -17,16 +17,12 @@ export default [
   {
     name: 'strapi::cors',
     config: {
-      headers: [
-        'Content-Type',
-        'Authorization',
-        'Origin',
-        'Accept',
-        'sentry-trace',
-        'baggage',
-        'x-access-token',
+      headers: '*',
+      origin: [
+        'https://admin.mickael-depardon.com',
+        'https://mickael-depardon.fr',
+        'https://mickael-depardon.com',
       ],
-      origin: ['*'],
     },
   },
   'strapi::poweredBy',
