@@ -23,6 +23,8 @@ export default [
         'https://admin.mickael-depardon.fr',
         'https://mickael-depardon.fr',
         'https://mickael-depardon.com',
+        'https://www.mickael-depardon.fr',
+        'https://www.mickael-depardon.com',
         'https://mickael-cv-portfolio-admin.herokuapp.com'
       ],
     },
