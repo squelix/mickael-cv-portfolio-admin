@@ -10,6 +10,7 @@ export default [
           'img-src': ["'self'", 'data:', 'blob:', 'dl.airtable.com', 'res.cloudinary.com'],
           'media-src': ["'self'", 'data:', 'blob:', 'dl.airtable.com', 'res.cloudinary.com'],
           upgradeInsecureRequests: null,
+          'script-src': ['https://cdn.ckeditor.com'],
         },
       },
     },
