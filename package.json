@@ -35,7 +35,7 @@
     "@strapi/provider-upload-cloudinary": "4.25.11",
     "@strapi/strapi": "4.25.11",
     "better-sqlite3": "9.6.0",
-    "koa": "2.13.4",
+    "koa": "2.16.1",
     "pg": "8.13.0",
     "pg-connection-string": "2.7.0",
     "react": "^18.3.1",
